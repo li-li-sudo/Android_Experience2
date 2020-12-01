@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下时 -->
+    <item android:state_pressed="true" android:drawable="@color/gray07" />
+
+    <!-- 指松开时 -->
+    <item android:state_pressed="false" android:drawable="@color/white_bg" />
+
+    <!-- 获取焦点时 -->
+    <item android:state_focused="true" android:drawable="@color/gray8a" />
+</selector>

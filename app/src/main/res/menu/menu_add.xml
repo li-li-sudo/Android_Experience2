@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addPic_item"
+        android:title="添加图片"
+        android:text="show popWindow"/>
+    <item
+        android:id="@+id/back_item"
+        android:title="返回"/>
+</menu>

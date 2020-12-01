@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--注册界面-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="请输入用户名"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:background="@drawable/input_style"
+        />
+
+    <EditText
+        android:id="@+id/userPwd"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/input_style"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/userPwd1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/input_style"
+        android:gravity="center"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#262626"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_registered"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/registered"
+        android:background="@drawable/btn_selector"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>
